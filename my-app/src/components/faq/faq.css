@@ -1,0 +1,69 @@
+/* Faq css */
+.section_faq {
+    padding: 3rem 0;
+}
+
+.section_faq .faq-heading h6 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.section_faq h6 {
+    font-size: 1.333rem;
+}
+
+.section_faq span {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.paralax {
+    background: url('../../images/bg/bg-3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5rem 0;
+}
+
+.paralax .paralax_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paralax .paralax_item h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+@media (max-width:992px) {
+    .paralax {
+        padding: 4rem 1rem;
+    }
+
+    .paralax .paralax_item h1 {
+        font-size: 1.333rem;
+        font-weight: 800;
+        color: var(--white-color);
+    }
+}
+
+@media (max-width:767px) {
+    .paralax {
+        padding: 4rem 1rem;
+    }
+
+    .paralax .paralax_item h1 {
+        font-size: 1.333rem;
+        font-weight: 800;
+        color: var(--white-color);
+    }
+
+    .paralax .paralax_item {
+        display: inline-block;
+        text-align: center;
+    }
+}

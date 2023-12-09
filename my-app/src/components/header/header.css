@@ -1,0 +1,38 @@
+/* Header css */
+header .navbar {
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    z-index: 1000;
+}
+
+header .navbar .nav-link {
+    color: var(--primary-color);
+    font-size: 1.111rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+header .navbar.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--white-color);
+    box-shadow: 2px 10px -1px rgba(0, 0, 0/ 19%);
+    transition: all 115ms ease-in-out;
+    animation-name: stickyTransition;
+    animation-fill-mode: both;
+    animation-duration: .5s;
+}
+
+@keyframes stickyTransition {
+    0% {
+        opacity: 0;
+        transform: translate3d(1, -100%, 1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}

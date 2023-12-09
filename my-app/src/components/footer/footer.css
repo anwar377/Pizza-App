@@ -1,0 +1,52 @@
+/* Footer Css */
+.footer_section {
+    padding: 3rem;
+    background: var(--primary-color);
+}
+
+.footer_section ul {
+    display: flex;
+    gap: 2rem;
+    color: var(--white-color);
+}
+
+.footer_section li {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.footer_section .text a {
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 1rem;
+    text-decoration: solid;
+}
+
+.footer_section a {
+    font-size: 1.333rem;
+
+}
+
+.footer_section .copyright {
+    color: var(--white-color);
+    margin-top: 1rem;
+}
+
+@media (max-width:767px) {
+    .footer_section {
+        padding: 1rem;
+        background: var(--primary-color);
+    }
+
+    .footer_section ul {
+        display: flex;
+        gap: 0rem;
+        color: var(--white-color);
+        padding-left: 0;
+    }
+
+    .footer_section .text a {
+        font-size: .888rem;
+        margin: 0.555rem;
+    }
+}

@@ -1,0 +1,61 @@
+/* new css */
+.new_section {
+    padding: 5rem;
+}
+
+.new_section h2 {
+    font-size: 2.333rem;
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.new_section p {
+    margin: 1rem 0;
+}
+
+.new_section .form-control {
+    border: 2px solid var(--primary-color);
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.new_section .main-btn {
+    font-size: 1.444rem;
+    font-weight: 700;
+}
+
+@media (max-width:992px) {
+    .new_section {
+        padding: 2rem;
+    }
+}
+
+@media (max-width:767px) {
+    .new_section {
+        padding: 1rem;
+    }
+
+    .new_section h2 {
+        font-size: 1.666rem;
+        font-weight: 600;
+        margin: 1rem;
+    }
+}
+
+@media (max-width:330px) {
+    .new_section {
+        padding: 0rem;
+    }
+
+    .new_section h2 {
+        font-size: 1.666rem;
+        font-weight: 600;
+        margin: 1rem;
+    }
+
+    .new_section .main-btn {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}

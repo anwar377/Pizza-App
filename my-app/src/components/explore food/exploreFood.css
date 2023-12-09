@@ -1,0 +1,49 @@
+/* Explore Food */
+.explore_section {
+    padding: 5rem;
+}
+
+.explore_section .explore_text {
+    padding: 0 10rem;
+}
+
+.explore_section .explore_text h6 {
+    font-size: 2.333rem;
+    font-size: 600;
+}
+
+.explore_section .explore_text p {
+    font-size: 1rem;
+    margin: 2rem;
+}
+
+.explore_section .card-body p {
+    font-size: 1.111;
+    font-weight: 400;
+}
+
+.explore_section .card-body span {
+    color: var(--primary-color);
+    font-size: 1.555rem;
+    font-weight: 700;
+}
+
+@media (max-width:992px) {
+    .explore_section {
+        padding: 2rem;
+    }
+
+    .explore_section .explore_text {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width:767px) {
+    .explore_section {
+        padding: 2rem;
+    }
+
+    .explore_section {
+        padding: 0rem;
+    }
+}
